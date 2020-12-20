@@ -186,6 +186,7 @@ input {
         font-weight: 400;
         height: 50px;
         padding: 0 1rem;
+        cursor: pointer;
         transition-duration: .3s;
         /* width: 10%; */
     }
@@ -232,7 +233,9 @@ input {
         margin: 0 .3rem;
     }
     #span-2 {
-        color: var(--light-text)
+        color: var(--light-text);
+        font-style: italic;
+        /* font-weight: 700; */
     }
     .wotd-content {
         width: 60%;
@@ -294,6 +297,7 @@ input {
         padding: .3rem 1rem;
         border: none;
         background-color: var(--dark-overlay);
+        cursor: pointer;
         font-size: 15px;
         color: var(--text);
     }
@@ -507,6 +511,7 @@ footer a img {
     font-size: 18px;
     font-weight: 400;
     height: 50px;
+    cursor: pointer;
     padding: 0 1rem;
     /* width: 10%; */
     transition-duration: .3s;
@@ -554,7 +559,8 @@ footer a img {
     margin: 0 .3rem;
 }
 #span-2 {
-    color: var(--light-text)
+    color: var(--light-text);
+    font-style: italic;
 }
 .wotd-content {
     width: 100%;
